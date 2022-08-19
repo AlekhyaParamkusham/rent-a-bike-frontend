@@ -1,0 +1,75 @@
+.thankyou{
+    width: 100%;
+    height: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin:20px;
+    padding: 90px;
+    text-align: center;
+    /* background-image: url("./../Images/welcome.jpg"); */
+    background-size: contain;
+    object-fit: fill;
+ background-repeat: no-repeat;
+ background-position: center;
+ /* opacity: 0.6; */
+ background-blend-mode: lighten;
+}
+img {
+    opacity: 0.6;
+}
+.info-thankyou {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.butn {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginbtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 70px;
+    border: none;
+    margin: 20px 0;
+    font-size: 20px;
+    color: #272121;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #8CBA51;
+
+}
+
+.butn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+ letter-spacing: 2px;
+}
+
+.loginbtn:hover {
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 2.5px;
+
+}
+
+.info-thankyou h1 {
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.info-thankyou h3 {
+ 
+    letter-spacing: 1.3px;
+}
+
+

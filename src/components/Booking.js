@@ -143,7 +143,7 @@ const Booking = () => {
   const location = useLocation();
   const history = useHistory();
   const bikeId = location.pathname.split("/")[2];
-  const API_URL = "https://rent-a-bike-server.herokuapp.com";
+  const API_URL = "https://rent-a-bike-backend.vercel.app";
 
   const [bikeData, setBikeData] = useState([]);
   const [dealerVal, setDealerVal] = useState([]);

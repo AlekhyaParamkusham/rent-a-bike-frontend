@@ -304,7 +304,7 @@ const SearchList = () => {
 
   // console.log(total, start, end, finalHrs);
 
-  const API_URL = "https://rent-a-bike-server.herokuapp.com";
+  const API_URL = "https://rent-a-bike-backend.vercel.app";
   const getData = async () => {
     setVal({
       ...val,

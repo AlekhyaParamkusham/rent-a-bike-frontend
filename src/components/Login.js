@@ -196,7 +196,7 @@ const Login = () => {
     upasswordConfirm: "",
   });
 
-  const API_URL = "https://rent-a-bike-server.herokuapp.com/users";
+  const API_URL = "https://rent-a-bike-backend.vercel.app/users";
 
   useEffect(() => {
     const getUsers = async () => {

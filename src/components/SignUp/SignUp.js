@@ -160,7 +160,7 @@ const SignUp = () => {
     createUser(values);
   };
 
-  const API_URL = "https://rent-a-bike-server.herokuapp.com/users";
+  const API_URL = "https://rent-a-bike-backend.vercel.app/users";
 
   const [userValues, setUserValues] = useState({
     users: [],

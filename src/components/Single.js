@@ -241,7 +241,7 @@ const Single = () => {
   const bikeId = location.pathname.split("/")[2];
 
   const [isLoading, setIsLoading] = useState(true);
-  const API_URL = "https://rent-a-bike-server.herokuapp.com";
+  const API_URL = "https://rent-a-bike-backend.vercel.app";
 
   const [bikeData, setBikeData] = useState([]);
   const [dealerVal, setDealerVal] = useState([]);
